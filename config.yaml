@@ -67,12 +67,9 @@ menu:
     - name: fotografias
       url: /tags/fotografias/
       weight: 4	
-    - name: archivos
-      url: /tags/archivos/
-      weight: 4
     - name: exposiciones
       url: /tags/exposiciones/
-      weight: 4
+      weight: 5
     - name: sobre mi
       url: /sobremi/
       weight: 5

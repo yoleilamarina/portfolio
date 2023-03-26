@@ -12,9 +12,7 @@ hideDate: true
 	<p>
 	Soy Leila Marina Villafañe, artista visual de la ciudad de Unquillo
 	</p>
-	<p>
-		Me gusta el arrrrrrrteeeee
-	</p>
+
 </div>
 
 

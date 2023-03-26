@@ -1,0 +1,78 @@
+baseURL: https://leilamarina.ar # todo: change site url.
+title: Leila Marina # todo: change site name.
+defaultContentLanguage: 'es'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  image: /images/banner.png
+  logo: logo.gif # todo: add your custom logo to static/
+  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  copyright: " " # todo: set your copyright type.
+  author: Leila Marina # todo: set your full name.
+  dontShowSource: true # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        trabajos: 3
+        bordados: 3
+        ilustraciones: 3
+        exposiciones: 3
+        default: 3
+      mobile:
+        default: 2
+        archivos: 3
+        trabajos: 2
+  socials:
+    # todo: change these links.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:leilamarina.arte@gmail.com'
+      landing: true
+    - icon: 'fab fa-instagram fa-lg'
+      url: 'https://instagram.com/_leilamarina_'
+  homepage: "/trabajos" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - trabajos
+    - fotos
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: trabajos
+      url: /trabajos/
+      weight: 3
+    - name: bordados
+      url: /tags/bordados/
+      weight: 4
+    - name: ilustraciones y dibujos
+      url: /tags/ilustraciones/
+      weight: 4
+    - name: fotografias
+      url: /tags/fotografias/
+      weight: 4	
+    - name: archivos
+      url: /tags/archivos/
+      weight: 4
+    - name: exposiciones
+      url: /tags/exposiciones/
+      weight: 4
+    - name: sobre mi
+      url: /sobremi/
+      weight: 5

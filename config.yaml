@@ -5,24 +5,23 @@ theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+  image: /images/banner.jpg
   logo: logo.gif # todo: add your custom logo to static/
   subtitle: Artista plástica de Cordoba Argentina. # todo: change default subtitle for your website.
   copyright: " " # todo: set your copyright type.
   author: Leila Marina # todo: set your full name.
-  dontShowSource: true # please, do not do this :)
+  dontShowSource: false # please, do not do this :)
   portfolio:
     columns:
       desktop:
-        trabajos: 3
+        trabajos: 8
         bordados: 3
         ilustraciones: 3
         exposiciones: 3
         default: 3
       mobile:
         default: 2
-        archivos: 3
-        trabajos: 2
+        trabajos: 5
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
@@ -30,10 +29,11 @@ params:
       landing: true
     - icon: 'fab fa-instagram fa-lg'
       url: 'https://instagram.com/_leilamarina_'
+      landing: true
   homepage: "/trabajos" # homepage link, mostly same with menu.main[0]
   specialPages:
     - trabajos
-    - fotos
+    - fotografias
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: false # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
@@ -55,9 +55,6 @@ permalinks:
 
 menu:
   main:
-    - name: trabajos
-      url: /trabajos/
-      weight: 3
     - name: bordados
       url: /tags/bordados/
       weight: 4

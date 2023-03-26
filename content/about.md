@@ -10,7 +10,7 @@ hideDate: true
 
 <div align="center">
 	<p>
-	Soy Leila Marina Villafañe, artista visual de la ciudad de Unquillo
+	Soy Leila Marina, artista visual de Cordoba, Argentina
 	</p>
 
 </div>

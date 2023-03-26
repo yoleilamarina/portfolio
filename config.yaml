@@ -7,7 +7,7 @@ googleAnalytics: '' # todo: set your analytics id.
 params:
   image: /images/banner.png
   logo: logo.gif # todo: add your custom logo to static/
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Artista plástica de Cordoba Argentina. # todo: change default subtitle for your website.
   copyright: " " # todo: set your copyright type.
   author: Leila Marina # todo: set your full name.
   dontShowSource: true # please, do not do this :)

@@ -1,4 +1,5 @@
 ---
 desc:
-- Leila Marina artista texil, visual
+- Leila Marina
+- artista textil y visual
 ---

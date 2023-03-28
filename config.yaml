@@ -5,7 +5,7 @@ theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+  image: /images/banner.jpg
   logo: logo.gif # todo: add your custom logo to static/
   subtitle: Artista plástica de Cordoba Argentina. # todo: change default subtitle for your website.
   copyright: " " # todo: set your copyright type.

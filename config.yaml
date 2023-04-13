@@ -33,7 +33,7 @@ params:
   homepage: "/trabajos" # homepage link, mostly same with menu.main[0]
   specialPages:
     - trabajos
-    - fotografias
+    # - fotografias
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: false # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
@@ -61,9 +61,9 @@ menu:
     - name: ilustraciones y dibujos
       url: /tags/ilustraciones/
       weight: 4
-    - name: fotografias
-      url: /tags/fotografias/
-      weight: 4	
+    # - name: fotografias
+    #   url: /tags/fotografias/
+    #   weight: 4	
     - name: exposiciones
       url: /tags/exposiciones/
       weight: 5

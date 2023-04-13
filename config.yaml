@@ -1,4 +1,4 @@
-baseURL: https://leilamarina.ar # todo: change site url.
+baseURL: leilamarina.ar # todo: change site url.
 title: Leila Marina # todo: change site name.
 defaultContentLanguage: 'es'
 theme: eternity
@@ -10,7 +10,7 @@ params:
   subtitle: Artista plástica de Cordoba Argentina. # todo: change default subtitle for your website.
   copyright: " " # todo: set your copyright type.
   author: Leila Marina # todo: set your full name.
-  dontShowSource: false # please, do not do this :)
+  dontShowSource: true # please, do not do this :)
   portfolio:
     columns:
       desktop:
